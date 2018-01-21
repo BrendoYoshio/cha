@@ -1,0 +1,19 @@
+// compileCompressed: ../css/$1.min.css
+
+@import "partials/_setup";
+@import "partials/_reset";
+
+/* Layout ================================================================================ */
+
+body {
+  overflow: hidden !important; background-color: #fff;
+}
+
+#myCanvas {
+  height: 100vh;
+  border: 1px solid #d3d3d3;
+}
+#download {
+  display: block;
+  font: 18px "Arial"; color: #2a2a2a; text-decoration: none; text-transform: uppercase;
+}
